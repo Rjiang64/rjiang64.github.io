@@ -1,0 +1,93 @@
+body {
+  background-color: #ffffff;
+  color: #2f2a2a;
+}
+
+.header_bar {
+  background-color: rgb(0, 94, 255);
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 1em;
+}
+
+.header_bar h1 {
+  font-weight: 600;
+}
+
+.navigation_menu {
+  text-align: center;
+  padding: 0.7em;
+  padding-right: 3em;
+}
+
+.navigation_menu a {
+  text-decoration: none;
+  color: #526f9a;
+  font-weight: 600;
+  font-size: large;
+}
+
+main {
+  padding: 3rem 15rem;
+}
+p {
+  font-size: large;
+}
+
+h1,
+h2 {
+  margin-top: 20px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+  transition: transform 0.3s ease;
+}
+
+img:hover {
+  transform: scale(1.03);
+}
+.header_title {
+  font-size: 2.5em;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  color: #3b4e73;
+  margin-bottom: 0.25rem;
+}
+
+.subheader_title {
+  font-size: 1.75rem;
+  font-weight: 600;
+  color: #3b4e73;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+.subheader_title2 {
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: #ff8935;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.button {
+  display: inline-block;
+  padding: 0.6em 1.2em;
+  background: #0d6efd;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 600;
+}
+
+.button:hover {
+  background: #0b5ed7;
+  transform: scale(1.03);
+}
+
+.divider {
+  margin-top: 1em;
+  margin-bottom: 2em;
+}
